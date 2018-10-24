@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  istio:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: 2018-10-24T11:16:48.175794893+11:00
+    description: Helm chart for all istio components
+    digest: 3b1cc0020ae349d97ed6b788506a393829d6e341e2d0332fdcf19174abbe4262
+    engine: gotpl
+    icon: https://istio.io/favicons/android-192x192.png
+    keywords:
+    - istio
+    - security
+    - sidecarInjectorWebhook
+    - mixer
+    - pilot
+    - galley
+    name: istio
+    sources:
+    - http://github.com/istio/istio
+    tillerVersion: '>=2.7.2-0'
+    urls:
+    - istio-1.1.0.tgz
+    version: 1.1.0
+generated: 2018-10-24T11:16:48.174273361+11:00
